@@ -1,9 +1,9 @@
 import React from "react";
 import "./style/navbar.css";
-import link from "./image/icons8-linkedin.svg";
-import insta from "./image/icons8-instagram.svg";
-import face from "./image/icons8-facebook.svg";
-import you from "./image/icons8-youtube.svg";
+import link from "./image/linkedin-logo.png";
+import insta from "./image/instagram.png";
+import face from "./image/facebook (1).png";
+import you from "./image/youtube.png";
 class Footer extends React.Component {
   render() {
     return (
@@ -13,16 +13,25 @@ class Footer extends React.Component {
             <div className="footer-inner">
               <div className="firstFooter">
                 <div className="icons">
-                  <a href="https://de.linkedin.com/company/audi-ag">
+                  <a
+                    href="https://de.linkedin.com/company/audi-ag"
+                    target="blank"
+                  >
                     <img src={link} />
                   </a>
-                  <a href="https://www.instagram.com/audiofficial/">
+                  <a
+                    href="https://www.instagram.com/audiofficial/"
+                    target="blank"
+                  >
                     <img src={insta} />
                   </a>
-                  <a href="https://www.facebook.com/audiofficial">
+                  <a
+                    href="https://www.facebook.com/audiofficial"
+                    target="blank"
+                  >
                     <img src={face} />
                   </a>
-                  <a href="https://www.youtube.com/audi">
+                  <a href="https://www.youtube.com/audi" target="blank">
                     <img src={you} />
                   </a>
                 </div>

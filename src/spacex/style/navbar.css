@@ -390,3 +390,40 @@ a {
   font-size: 11px;
   line-height: 17px;
 }
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+.icons a img {
+  width: 50px;
+  margin-left: 20px;
+  color: wheat;
+  border-radius: 800px;
+  background-color: white;
+}
+.firstFooter {
+  padding-top: 50px;
+}
+.icons {
+  text-align: right;
+  margin-right: 120px;
+}
+
+.secondFooter {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 260px;
+}
+.one a {
+  display: block;
+  margin-bottom: 10px;
+}
+.two a {
+  display: block;
+}
+.three a {
+  display: block;
+}
