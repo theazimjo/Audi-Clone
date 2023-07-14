@@ -7,13 +7,13 @@
 }
 
 .container {
-  width: 1620px;
+  width: 1700px;
   margin: 0 auto;
 }
 .nav {
   width: 100%;
   height: 60px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   position: fixed;
@@ -24,6 +24,10 @@
   align-items: center;
   justify-content: space-around;
 }
+#imageback {
+  width: 100px;
+}
+
 .wrap-name ul {
   display: flex;
   list-style: none;
@@ -74,7 +78,7 @@
 
 header {
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -119,6 +123,7 @@ header {
   width: 100%;
   height: 0;
   display: none;
+  z-index: 99999;
   background-color: white;
 }
 .uploading-inner h1 {
@@ -196,4 +201,192 @@ header {
   background-color: white;
   transform: rotate(-50deg);
   position: absolute;
+}
+
+.main-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.uptext h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.imagepage {
+  margin-top: 90px;
+  display: flex;
+  gap: 30px;
+}
+.firstpage {
+  width: 470px;
+}
+.firstpage:hover img {
+  transform: scale(1.2);
+}
+a {
+  text-decoration: none;
+}
+.imghover {
+  width: 470px;
+  height: 270px;
+  overflow: hidden;
+}
+.hovereffect {
+  width: 470px;
+  height: 270px;
+  background-color: black;
+}
+.firstpage a h4 {
+  color: rgb(169, 169, 169);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.firstpage a h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+.firstpage a p {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+  font-size: 14px;
+}
+.secondpage {
+  width: 470px;
+}
+.secondpage:hover img {
+  transform: scale(1.2);
+}
+.secondpage a h4 {
+  color: rgb(169, 169, 169);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.secondpage a h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+.secondpage a p {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+  font-size: 14px;
+}
+.lastPage {
+  width: 470px;
+}
+.lastPage:hover img {
+  transform: scale(1.2);
+}
+.lastPage a h4 {
+  color: rgb(169, 169, 169);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.lastPage a h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+.lastPage a p {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+  font-size: 14px;
+}
+.lastElecCar {
+  display: flex;
+  margin-top: 180px;
+  gap: 60px;
+  align-items: center;
+}
+.fulelecttext h3 {
+  font-weight: 300;
+  margin-bottom: 3px;
+  font-size: 2.1rem;
+  line-height: 3rem;
+  font-family: AudiType-ExtendedNormal, Helvetica, Arial, sans-serif;
+}
+
+.fulelecttext h4 {
+  margin-top: 30px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.fulelecttext button {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 1px solid black;
+  min-width: 270px;
+  min-height: 60px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+.fulelecttext button:hover {
+  border: 1px solid rgb(164, 164, 164);
+  color: rgb(164, 164, 164);
+}
+
+.fulelecttext span {
+  font-size: 11px;
+  display: block;
+}
+.Pressreleas {
+  margin-top: 200px;
+}
+
+.Pressreleas h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.firstpage h3 {
+  font-size: 22px;
+  color: black;
+  font-weight: 300;
+}
+.secondpage h3 {
+  font-size: 22px;
+  color: black;
+  font-weight: 300;
+}
+.lastPage h3 {
+  font-size: 22px;
+  color: black;
+  font-weight: 300;
+}
+.btn {
+  width: 300px;
+  margin-top: 80px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(95, 95, 95);
+}
+.pert {
+  font-size: 11px;
+  line-height: 17px;
 }
